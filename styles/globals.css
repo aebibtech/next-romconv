@@ -15,12 +15,16 @@ a {
   box-sizing: border-box;
 }
 
+input, label {
+  font-size: x-large;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: #ddd;
+    background: #333;
   }
 }
