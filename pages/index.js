@@ -21,7 +21,7 @@ export default function Home() {
           Convert your arabic numbers to roman numerals.
         </p>
         <p>
-          &copy; <a href="https://aebibtech.com" target="_blank">Aebibtech</a>
+          &copy; <a href="https://aebibtech.com" target="_blank" rel="noreferrer noopener">Aebibtech</a>
         </p>
 
         <div className={styles.grid}>
