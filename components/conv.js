@@ -6,7 +6,7 @@ export default function RomanConverter() {
     const [roman, setRoman] = useState("")
     
     function handleChange(e) {
-        Number(e.target.value) > 999999 ?
+        Number(e.target.value) > 1999999 ?
         setRoman(() => "") : setRoman(() => convertToRoman(e.target.value))
     }
 
